@@ -37,7 +37,7 @@ export default function CurrentWeather() {
                 />
                 <div className="float-left">
                   <strong>{weatherData.temperature}</strong>
-                  <span className="units">°F</span>
+                  <span className="units">°C</span>
                 </div>
               </div>
             </div>

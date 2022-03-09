@@ -79,3 +79,9 @@
 .github {
   text-align: center;
 }
+
+.units {
+  position: relative;
+  line-height: 1;
+  top: -34px;
+}
