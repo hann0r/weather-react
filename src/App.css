@@ -1,9 +1,11 @@
 body {
-  font-family: arial, sans-serif;
+  font-family: "DM Sans", sans-serif;
   text-align: center;
 }
 
 .App {
   max-width: 600px;
   margin: 30px auto;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/029/599/original/istockphoto-1296823579-612x612.jpg?1647705695");
+  border-radius: 30px;
 }
