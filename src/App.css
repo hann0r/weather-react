@@ -1,11 +1,40 @@
 body {
   font-family: "DM Sans", sans-serif;
   text-align: center;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(222, 168, 248) 0%,
+    rgb(168, 222, 248) 21.8%,
+    rgb(189, 250, 205) 35.6%,
+    rgb(243, 250, 189) 52.9%,
+    rgb(250, 227, 189) 66.8%,
+    rgb(248, 172, 172) 90%,
+    rgb(254, 211, 252) 100%
+  );
 }
 
 .App {
-  max-width: 600px;
+  max-width: 500px;
   margin: 30px auto;
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/029/599/original/istockphoto-1296823579-612x612.jpg?1647705695");
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/032/991/original/pexels-johannes-plenio-2850287.jpg?1651189361");
+
+  background-position: center;
+  border-radius: 40px;
+}
+
+.container {
   border-radius: 30px;
+}
+.App footer {
+  position: relative;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+  opacity: 70%;
+  margin-top: 50px;
+}
+
+.App a {
+  text-decoration: highlight;
 }
