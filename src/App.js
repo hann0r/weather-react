@@ -7,7 +7,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Weather defaultCity="Cambridge, GB" />
-        <p>
+        <p className="Poem">
           "Whether the weather be fine, <br />
           or whether the weather be not,
           <br /> Whether the weather be cold, <br />

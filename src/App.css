@@ -32,9 +32,12 @@ body {
   color: black;
   border-radius: 25px;
   opacity: 70%;
-  margin-top: 50px;
+  margin-top: 55px;
 }
 
 .App a {
   text-decoration: highlight;
+}
+.Poem {
+  margin-top: 25px;
 }
